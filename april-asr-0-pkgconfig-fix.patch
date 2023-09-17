@@ -1,0 +1,11 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 16f79cc..7b8277c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -162,5 +162,5 @@ configure_file(
+ 
+ install(
+   FILES ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.pc
+-  DESTINATION lib/pkgconfig
++  DESTINATION lib64/pkgconfig
+ )
